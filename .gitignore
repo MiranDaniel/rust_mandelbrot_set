@@ -1,0 +1,7 @@
+/target
+*cache*.png
+.idea
+.idea/
+
+./*.png
+
