@@ -7,7 +7,7 @@ use rayon::prelude::*;
 use std::process::Command;
 
 // Width of the individual segments the large image is built from
-static WIDTH: u64 = 2u64.pow(13);
+static WIDTH: u64 = 2u64.pow(9);
 // Max iterations of z^2+c per pixel
 static MAX_ITERATIONS: u64 = 256;
 // Supersampling factor for SSAA spatial anti-aliasing
